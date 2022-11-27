@@ -3,6 +3,8 @@ import './App.css';
 import React from 'react';
 import { useEffect } from 'react';
 
+
+
      const API_URL='apiwebsite'
      const App = () => {
 
@@ -19,7 +21,26 @@ import { useEffect } from 'react';
       },[]); 
 
       return (
-        <h1> APP</h1>
+        <div className='app'>
+          <h1>MovieLand</h1>
+
+          <div className="search">
+            <input 
+            placeholder='Search for movies'
+            value="superman"
+            onChange={()=>{}}
+            />
+            {/* <img
+            src={earch}
+            alt="search"
+            onClick={()=>{}}
+            /> */}
+            </div>
+            <div className='container'>
+            
+            </div>
+          
+          </div>
       );
      }
    
